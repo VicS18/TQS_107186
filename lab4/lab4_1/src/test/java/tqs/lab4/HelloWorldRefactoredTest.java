@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.seljup.SeleniumJupiter;
 
 @ExtendWith(SeleniumJupiter.class)
-public class HelloWorldRefactored {
+public class HelloWorldRefactoredTest {
 
     @Test
     void test(ChromeDriver driver){
