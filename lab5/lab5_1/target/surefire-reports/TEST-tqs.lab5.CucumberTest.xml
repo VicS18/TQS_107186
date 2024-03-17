@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tqs.lab5.CucumberTest" time="0.107" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/vitorsantos/Documents/GitHub/TQS_107186/lab5/lab5_1/target/test-classes:/home/vitorsantos/Documents/GitHub/TQS_107186/lab5/lab5_1/target/classes:/home/vitorsantos/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/home/vitorsantos/.m2/repository/ch/qos/logback/logback-classic/1.5.3/logback-classic-1.5.3.jar:/home/vitorsantos/.m2/repository/ch/qos/logback/logback-core/1.5.3/logback-core-1.5.3.jar:/home/vitorsantos/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/home/vitorsantos/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/home/vitorsantos/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/vitorsantos/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/home/vitorsantos/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/home/vitorsantos/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/home/vitorsantos/.m2/repository/org/junit/platform/junit-platform-suite/1.10.1/junit-platform-suite-1.10.1.jar:/home/vitorsantos/.m2/repository/org/junit/platform/junit-platform-suite-api/1.10.1/junit-platform-suite-api-1.10.1.jar:/home/vitorsantos/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.10.1/junit-platform-suite-engine-1.10.1.jar:/home/vitorsantos/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.10.1/junit-platform-suite-commons-1.10.1.jar:/home/vitorsantos/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.1/junit-platform-launcher-1.10.1.jar:/home/vitorsantos/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/home/vitorsantos/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/home/vitorsantos/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/vitorsantos/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.15.0/cucumber-junit-platform-engine-7.15.0.jar:/home/vitorsantos/.m2/repository/org/junit/platform/junit-platform-engine/1.10.1/junit-platform-engine-1.10.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Lisbon"/>
+    <property name="user.country.format" value="PT"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-17-oracle-x64/lib"/>
+    <property name="sun.java.command" value="/home/vitorsantos/Documents/GitHub/TQS_107186/lab5/lab5_1/target/surefire/surefirebooter-20240314175309462_3.jar /home/vitorsantos/Documents/GitHub/TQS_107186/lab5/lab5_1/target/surefire 2024-03-14T17-53-09_416-jvmRun1 surefire-20240314175309462_1tmp surefire_0-20240314175309462_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/vitorsantos/Documents/GitHub/TQS_107186/lab5/lab5_1/target/test-classes:/home/vitorsantos/Documents/GitHub/TQS_107186/lab5/lab5_1/target/classes:/home/vitorsantos/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/home/vitorsantos/.m2/repository/ch/qos/logback/logback-classic/1.5.3/logback-classic-1.5.3.jar:/home/vitorsantos/.m2/repository/ch/qos/logback/logback-core/1.5.3/logback-core-1.5.3.jar:/home/vitorsantos/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/home/vitorsantos/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/home/vitorsantos/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/vitorsantos/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/home/vitorsantos/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/home/vitorsantos/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/home/vitorsantos/.m2/repository/org/junit/platform/junit-platform-suite/1.10.1/junit-platform-suite-1.10.1.jar:/home/vitorsantos/.m2/repository/org/junit/platform/junit-platform-suite-api/1.10.1/junit-platform-suite-api-1.10.1.jar:/home/vitorsantos/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.10.1/junit-platform-suite-engine-1.10.1.jar:/home/vitorsantos/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.10.1/junit-platform-suite-commons-1.10.1.jar:/home/vitorsantos/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.1/junit-platform-launcher-1.10.1.jar:/home/vitorsantos/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/home/vitorsantos/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/home/vitorsantos/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/home/vitorsantos/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/vitorsantos/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.15.0/cucumber-junit-platform-engine-7.15.0.jar:/home/vitorsantos/.m2/repository/org/junit/platform/junit-platform-engine/1.10.1/junit-platform-engine-1.10.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/vitorsantos"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="/usr/lib/jvm/jdk-17-oracle-x64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/vitorsantos/Documents/GitHub/TQS_107186/lab5/lab5_1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/vitorsantos/Documents/GitHub/TQS_107186/lab5/lab5_1/target/surefire/surefirebooter-20240314175309462_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
+    <property name="user.name" value="vitorsantos"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.5.0-25-generic"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/vitorsantos/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.8"/>
+    <property name="cucumber.filter.tags" value="@calc_sample"/>
+    <property name="user.dir" value="/home/vitorsantos/Documents/GitHub/TQS_107186/lab5/lab5_1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="pt"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.8+9-LTS-211"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Addition" classname="Basic Arithmetic" time="0.054">
+    <system-out><![CDATA[17:53:09.840 [main] DEBUG tqs.lab5.CalculatorTest -- Adding 10 and 5
+17:53:09.842 [main] DEBUG tqs.lab5.CalculatorTest -- Result: 15.0 (expected 15.0)
+]]></system-out>
+  </testcase>
+  <testcase name="Subtraction" classname="Basic Arithmetic" time="0.002">
+    <system-out><![CDATA[17:53:09.846 [main] DEBUG tqs.lab5.CalculatorTest -- Subtracting 5 from 3
+17:53:09.846 [main] DEBUG tqs.lab5.CalculatorTest -- Result: -2.0 (expected -2.0)
+]]></system-out>
+  </testcase>
+  <testcase name="Division" classname="Basic Arithmetic" time="0.001">
+    <system-out><![CDATA[17:53:09.848 [main] DEBUG tqs.lab5.CalculatorTest -- Dividing 21 by 7
+17:53:09.848 [main] DEBUG tqs.lab5.CalculatorTest -- Result: 3.0 (expected 3.0)
+]]></system-out>
+  </testcase>
+  <testcase name="Multiplication" classname="Basic Arithmetic" time="0.002">
+    <system-out><![CDATA[17:53:09.850 [main] DEBUG tqs.lab5.CalculatorTest -- Multiply 7 by 3
+17:53:09.850 [main] DEBUG tqs.lab5.CalculatorTest -- Result: 21.0 (expected 21.0)
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.1" classname="Addition" time="0.002">
+    <system-out><![CDATA[17:53:09.852 [main] DEBUG tqs.lab5.CalculatorTest -- Adding 2 and 209
+17:53:09.852 [main] DEBUG tqs.lab5.CalculatorTest -- Result: 211.0 (expected 211.0)
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.2" classname="Addition" time="0.001">
+    <system-out><![CDATA[17:53:09.853 [main] DEBUG tqs.lab5.CalculatorTest -- Adding -10 and 10
+17:53:09.853 [main] DEBUG tqs.lab5.CalculatorTest -- Result: 0.0 (expected 0.0)
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.1" classname="Examples" time="0.001">
+    <system-out><![CDATA[17:53:09.855 [main] DEBUG tqs.lab5.CalculatorTest -- Subtracting 2 from 209
+17:53:09.855 [main] DEBUG tqs.lab5.CalculatorTest -- Result: 207.0 (expected 207.0)
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.1" classname="Examples" time="0.001">
+    <system-out><![CDATA[17:53:09.858 [main] DEBUG tqs.lab5.CalculatorTest -- Dividing 208 by 2
+17:53:09.858 [main] DEBUG tqs.lab5.CalculatorTest -- Result: 104.0 (expected 104.0)
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.1" classname="Examples" time="0.002">
+    <system-out><![CDATA[17:53:09.860 [main] DEBUG tqs.lab5.CalculatorTest -- Multiply 208 by 2
+17:53:09.861 [main] DEBUG tqs.lab5.CalculatorTest -- Result: 416.0 (expected 416.0)
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.2" classname="Examples" time="0.001">
+    <system-out><![CDATA[17:53:09.856 [main] DEBUG tqs.lab5.CalculatorTest -- Subtracting -10 from 10
+17:53:09.856 [main] DEBUG tqs.lab5.CalculatorTest -- Result: 20.0 (expected 20.0)
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.2" classname="Examples" time="0.001">
+    <system-out><![CDATA[17:53:09.859 [main] DEBUG tqs.lab5.CalculatorTest -- Dividing -10 by 10
+17:53:09.859 [main] DEBUG tqs.lab5.CalculatorTest -- Result: -1.0 (expected -1.0)
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.2" classname="Examples" time="0.001">
+    <system-out><![CDATA[17:53:09.862 [main] DEBUG tqs.lab5.CalculatorTest -- Multiply -10 by 10
+17:53:09.862 [main] DEBUG tqs.lab5.CalculatorTest -- Result: -100.0 (expected -100.0)
+]]></system-out>
+  </testcase>
+</testsuite>
