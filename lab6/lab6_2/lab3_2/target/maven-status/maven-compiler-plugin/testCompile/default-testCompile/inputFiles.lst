@@ -1,6 +1,6 @@
-C:\Users\USER\Documents\GitHub\TQS_107186\lab6\lab6_2\lab3_2\src\test\java\tqs\lab3\lab3_2\CarRestControllerIT_Real.java
-C:\Users\USER\Documents\GitHub\TQS_107186\lab6\lab6_2\lab3_2\src\test\java\tqs\lab3\lab3_2\CarRepositoryTest.java
-C:\Users\USER\Documents\GitHub\TQS_107186\lab6\lab6_2\lab3_2\src\test\java\tqs\lab3\lab3_2\CarManagerService_UT.java
-C:\Users\USER\Documents\GitHub\TQS_107186\lab6\lab6_2\lab3_2\src\test\java\tqs\lab3\lab3_2\CarRestControllerIT.java
-C:\Users\USER\Documents\GitHub\TQS_107186\lab6\lab6_2\lab3_2\src\test\java\tqs\lab3\lab3_2\JsonUtils.java
-C:\Users\USER\Documents\GitHub\TQS_107186\lab6\lab6_2\lab3_2\src\test\java\tqs\lab3\lab3_2\CarRestController_MockService.java
+/home/vitorsantos/Documents/GitHub/TQS_107186/lab6/lab6_2/lab3_2/src/test/java/tqs/lab3/lab3_2/CarRestControllerIT_IntegrationTest.java
+/home/vitorsantos/Documents/GitHub/TQS_107186/lab6/lab6_2/lab3_2/src/test/java/tqs/lab3/lab3_2/CarRestController_MockServiceTest.java
+/home/vitorsantos/Documents/GitHub/TQS_107186/lab6/lab6_2/lab3_2/src/test/java/tqs/lab3/lab3_2/CarRepositoryTest.java
+/home/vitorsantos/Documents/GitHub/TQS_107186/lab6/lab6_2/lab3_2/src/test/java/tqs/lab3/lab3_2/JsonUtils.java
+/home/vitorsantos/Documents/GitHub/TQS_107186/lab6/lab6_2/lab3_2/src/test/java/tqs/lab3/lab3_2/CarManagerServiceTest.java
+/home/vitorsantos/Documents/GitHub/TQS_107186/lab6/lab6_2/lab3_2/src/test/java/tqs/lab3/lab3_2/CarRestControllerIT_Real_IntegrationTest.java

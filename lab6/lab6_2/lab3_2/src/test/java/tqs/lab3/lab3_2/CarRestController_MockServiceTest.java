@@ -26,7 +26,7 @@ import static org.hamcrest.Matchers.hasSize;
 
 
 @WebMvcTest(CarRestController.class)
-public class CarRestController_MockService {
+public class CarRestController_MockServiceTest {
     
     @Autowired
     private MockMvc mvc;

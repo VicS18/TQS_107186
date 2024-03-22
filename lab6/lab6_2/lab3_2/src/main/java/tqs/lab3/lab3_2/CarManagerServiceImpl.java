@@ -8,8 +8,12 @@ import java.util.Optional;
 @Service
 public class CarManagerServiceImpl implements CarManagerService {
 
-    @Autowired
     private CarRepository carRepository;
+
+    @Autowired
+    public CarManagerServiceImpl(CarRepository carRepository){
+        this.carRepository = carRepository;
+    }
 
     @Override
     public Car createCar(Car car) {

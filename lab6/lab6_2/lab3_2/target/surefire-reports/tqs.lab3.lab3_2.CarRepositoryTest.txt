@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: tqs.lab3.lab3_2.CarRestControllerIT
+Test set: tqs.lab3.lab3_2.CarRepositoryTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.314 s -- in tqs.lab3.lab3_2.CarRestControllerIT
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.657 s - in tqs.lab3.lab3_2.CarRepositoryTest

@@ -11,8 +11,12 @@ import java.util.List;
 @RequestMapping("/api")
 public class CarRestController {
 
-    @Autowired
     private CarManagerService carManagerService;
+
+    @Autowired
+    public CarRestController(CarManagerService carManagerService){
+        this.carManagerService = carManagerService;
+    }
 
     @PostMapping("/car")
     public ResponseEntity<Car> createCar(@RequestBody Car car) {
