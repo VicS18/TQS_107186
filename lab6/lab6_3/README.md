@@ -46,7 +46,43 @@ As such, the Sonar Way should be extended with gates pertaining to security and 
 
 ## b)
 
+To put this quality gate into action, an intentionally clumsy and unsafe software increment will be added to the project, attempting to develop an extremely simplified, naive and overall poorly designed pseudo-random cryptographic key generator, using the unsafe java.util.Random class.
 
+Code:
+
+```java
+package util.crypto;
+
+import java.util.Random;
+
+public class KeyUtils {
+    private static final boolean DEBUG = true;
+
+    // DEBUG
+    private static final long SEED = 0;
+
+    // Stupidly simple (Hello! I'm a useless comment!)
+    public static byte[] getKey(int lengthInBytes){
+        Random rand = new Random();
+        // DEBUG
+        if (DEBUG){
+            rand = new Random(SEED);
+        }
+        byte[] res = new byte[lengthInBytes];
+        rand.nextBytes(res);
+        return res;
+    }
+}
+
+```
+
+Quality Gate status:
+
+![Quality gate status](f5.png)
+
+Notably, this code is never tested and contains a security vulnerability (usage of cryptographically unsafe PRNG):
+
+![Quality gate status](f6.png)
 
 
 
