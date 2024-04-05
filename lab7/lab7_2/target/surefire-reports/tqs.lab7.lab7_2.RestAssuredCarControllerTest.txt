@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: tqs.lab7.lab7_2.RestAssuredCarControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.924 s -- in tqs.lab7.lab7_2.RestAssuredCarControllerTest
