@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: tqs.lab7.lab7_4.CarRestControllerIT_RealTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.57 s -- in tqs.lab7.lab7_4.CarRestControllerIT_RealTest
